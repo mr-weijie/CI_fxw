@@ -514,7 +514,7 @@
     "builds": {
         "classic": {
             "toolkit": "classic",
-            "theme": "theme-triton",
+            "theme": "my-classic-theme",//"theme-triton",
             "sass": {
                 "generated": {
                     "var": "classic/sass/save.scss",

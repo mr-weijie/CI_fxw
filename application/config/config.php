@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //$config['base_url'] ='';端口是80时，可以这样写
 $realIP=gethostbyname(gethostname());
-$config['base_url'] = 'http://'.$realIP.':8083';
+$config['base_url'] = 'http://'.$realIP.':8084';
 //$config['base_url'] = 'http://www.86fxw.com/hrbczc';
 
 /*

@@ -14,7 +14,8 @@ class Home extends CI_Controller {
 
     }
     public function index(){
-        $this->load->view('study/index.html');
+        $data['js']=base_url('assets/js/hello.js');
+        $this->load->view('index.html',$data);
 
 
     }
